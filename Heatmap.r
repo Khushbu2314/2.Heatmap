@@ -1,3 +1,5 @@
+# Step-1: It involves the normalization of the data
+# Step-2:Heatmap (after normalization)
 data_file=read.csv("GSE168009_Raw_count.csv",row.names=1)
 #z-score
 library(matrixStats)
@@ -12,6 +14,6 @@ top50 = variance[1:50]
 pmat = z_score[names(top50),]
 
 
-#heatmap
+#heatmap 
 library(ComplexHeatmap)
 Heatmap(pmat)
