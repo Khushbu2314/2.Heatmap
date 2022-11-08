@@ -1,6 +1,7 @@
 # Heatmap
 Heatmap is basically a graphical visualization of the data.
 
+Interpretation:
 In the above given cancer data viculaization done in R.It basically shows us the genes which are highly expressed and the genes which are less expressed 
 
 Here as image shown ,the genes showed in red color are highly upregulated genes while blue colored are highly downregulated genes.
